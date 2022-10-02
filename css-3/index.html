@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/febicon.png" sizes="16X16">
+    <link rel="stylesheet" href="nav.css">
+    <title>CSS3 visibility & Display</title>
+
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid indigo;
+
+        }
+
+        #box-1 {
+            background-color: khaki;
+
+        }
+
+        #box-2 {
+            background-color: seagreen;
+
+        }
+
+        #box-3 {
+            background-color: sienna;
+            /* visibility: hidden; */
+            display: none;
+
+        }
+
+        #box-4 {
+            background-color: springgreen;
+
+        }
+    </style>
+</head>
+<nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Galary</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Products</a>
+            <ul>
+                <li><a href="">Line-1</a></li>
+                <li><a href="">Line-2</a></li>
+                <li><a href="">Line-3</a></li>
+                <li><a href="">Line-4</a></li>
+            </ul>
+        </li>
+        <li><a href="">About</a>
+        </li>
+    </ul>
+</nav>
+
+<body>
+    <main>
+        <div class="box" id="box-1"></div>
+        <div class="box" id="box-2"></div>
+        <div class="box" id="box-3"></div>
+        <div class="box" id="box-4"></div>
+    </main>
+
+</body>
+
+</html>
